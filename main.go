@@ -81,8 +81,8 @@ func main() {
 	})
 
 	// 서버 시작
-	log.Println("서버 시작: 18080 포트")
-	if err := http.ListenAndServe(":18080", nil); err != nil {
+	log.Println("서버 시작: 8080 포트")
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal("서버 시작 실패:", err)
 	}
 }
