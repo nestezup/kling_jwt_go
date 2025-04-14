@@ -1,0 +1,7 @@
+version: '3'
+services:
+  jwt-server:
+    build: .
+    ports:
+      - "18080:8080"
+    restart: always 
