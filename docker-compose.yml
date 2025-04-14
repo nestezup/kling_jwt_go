@@ -3,5 +3,5 @@ services:
   jwt-server:
     build: .
     ports:
-      - "18080:8080"
+      - "18080:18080"
     restart: always 
